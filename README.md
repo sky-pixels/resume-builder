@@ -17,8 +17,11 @@ npm install
 
 ## Features
 Create Resume: Users can create a new resume by filling in their personal information, education, skills, projects, experience, and certifications.
+
 Customize Resume: Users can edit and customize different sections of their resume.
+
 Share Resume: Users can share their resume with viewers, or "roasters," who can provide feedback to help improve the resume.
+
 Download Resume: Users can download their resume as a PDF file.
 
 ## Usage
