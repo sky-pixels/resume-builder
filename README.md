@@ -1,46 +1,30 @@
-# Getting Started with Create React App
+# CoffeeMaker
+CoffeeMaker is a resume builder application that allows users to create, customize, and share their resumes, referred to as "coffee" in this application. Viewers, or "roasters," can be invited by the resume owner to provide feedback, or "roast," on the resume to help improve it.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CoffeeMaker is a resume builder that simplifies the resume making process by...
+1) Allowing the user to focus on their content first
+2) Generating a resume that formats all of the given input in an easy to read PDF document  
 
-## Available Scripts
+## Contributors
+Hannah Kim
+Bolo Erdenebat
+Mike Vicencio
 
-In the project directory, you can run:
+## Installation
+ 
+Download the VSCode Live Server Extension by Ritwick Dey 
+## Features
+Create Resume: Users can create a new resume by filling in their personal information, education, skills, projects, experience, and certifications.
+Customize Resume: Users can edit and customize different sections of their resume.
+Share Resume: Users can share their resume with viewers, or "roasters," who can provide feedback to help improve the resume.
+Download Resume: Users can download their resume as a PDF file.
 
-### `npm start`
+## Usage
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Right click and open login.html with Live Server to get started.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Dependencies
+Bootstrap: For styling and responsive design.
+jsPDF: For generating PDF files from the resume.
+html2canvas: For capturing the resume as an image for PDF conversion.
+DOMPurify: For sanitizing HTML and preventing XSS attacks.
