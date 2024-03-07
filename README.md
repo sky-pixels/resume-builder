@@ -11,8 +11,10 @@ Bolo Erdenebat
 Mike Vicencio
 
 ## Installation
- 
-Download the VSCode Live Server Extension by Ritwick Dey 
+
+npm install 
+
+
 ## Features
 Create Resume: Users can create a new resume by filling in their personal information, education, skills, projects, experience, and certifications.
 Customize Resume: Users can edit and customize different sections of their resume.
@@ -20,11 +22,11 @@ Share Resume: Users can share their resume with viewers, or "roasters," who can 
 Download Resume: Users can download their resume as a PDF file.
 
 ## Usage
-
-Right click and open login.html with Live Server to get started.
+ 
+npm start 
 
 ## Dependencies
-Bootstrap: For styling and responsive design.
-jsPDF: For generating PDF files from the resume.
-html2canvas: For capturing the resume as an image for PDF conversion.
-DOMPurify: For sanitizing HTML and preventing XSS attacks.
+React Bootstrap: For styling and responsive design.
+React PDF: For generating PDF files from the resume.
+zustand: For maintaining state across components.
+firebase: For authentication. 
